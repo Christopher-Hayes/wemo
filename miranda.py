@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 ################################
 # Interactive UPNP application #
 # Craig Heffner                #
@@ -799,7 +798,7 @@ class upnp:
 def msearch(argc, argv, hp, cycles=99999999):
 	defaultST = "upnp:rootdevice"
 	st = "schemas-upnp-org"
-	myip = gethostbyname(gethostname())
+	myip = '192.168.1.3'
 	lport = hp.port
 
 	if argc >= 3:
@@ -1717,4 +1716,3 @@ if __name__ == "__main__":
 	except Exception, e:
 		print 'Caught main exception:',e
 		sys.exit(1)
-
