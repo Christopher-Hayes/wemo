@@ -22,6 +22,7 @@
         n=
     verifyApcliMode         # verify wifi network connection?
         POST - content: n/a
+    video                   # mjpeg stream
     wirelessAplist          # set wifi network to connect through
         POST - content:
             apcli_ssid      = NETGEAR-2.4-G         &
