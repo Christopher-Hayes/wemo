@@ -5,8 +5,14 @@ PnP library for getting information about PnP-capable devices on the network.
 **netcam.py**
 Used to interact with the Belkin NetCam and get data.
 
+**netcam_gui.py**
+Gives a live feed from the Wemo Netcam (in setup mode) using the mjpeg stream.
+
 **netcam_info.txt**
 Complete information about NetCam as produced by the Belkin AWS Server.
+
+**netcam_known_tree.txt**
+The presently known tree of the netcam locally hosted http pages.
 
 **switch.py**
 Interfaces to Belkin Switch, get and set functions.
