@@ -1,5 +1,0 @@
-Add to presentation:
-  - talk about how the switch operates using xml soap http requests through port 49152
-    - get and set is done by getting an xml or sending an xml with the filled in data
-    - /upnp/control/basicevent1
-  - the netcam on the otherhand operates strictly with get and post requests on port 80 where the url decides what content is being set/get
