@@ -10,7 +10,7 @@ Content on the repository website.
 All Python files and files containing specific information about the netcam.
 
 **switch**
-Simple shell tool designed to interface with the WeMo switch.
+Simple shell tool designed to interface with the WeMo switch. Contains relevant .xml docs as well.
 
 **third_party_tools**
 Tools used that were built by a third party.
@@ -19,7 +19,7 @@ Tools used that were built by a third party.
 Unrelated tools built to facilitate the project.
 
 **wemo**
-Tool for normal interfacing to WeMo devices. Contains relevant .xml docs as well.
+Tool for normal interfacing to WeMo devices.
 
 ## All Files
 
