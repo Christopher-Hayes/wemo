@@ -1,4 +1,4 @@
-import gi, requests, thread
+import gi, requests, thread, ../wemo/wemo_wifi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, GdkPixbuf
 
@@ -28,6 +28,7 @@ class MyWindow(Gtk.Window):
                     loader.close()
                     break
 
+wemo_wifi.connect_wemo_wifi(True)
 m_running = True
 win = MyWindow()
 win.connect("delete-event", Gtk.main_quit)

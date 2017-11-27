@@ -167,3 +167,13 @@ net cam info
        }
      }
 }
+
+Netcam App Network Sequence - Screenshot Preview:
+ - send anonymous analytic data to server
+ - get system settings from Belkin device
+ - get js display code to show screenshot preview
+ - continuously get snapshots for the preview
+    - preview updates by incrementing an integer, new int = take snapshot, old int = send old snapshot
+# image preview: http://10.68.68.22:80/
+# video connection: http://10.2.11.45:9490/
+# Online camera - Web of Trust
