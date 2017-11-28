@@ -1,5 +1,5 @@
 # wemo
-#### Note: This project is Python**2** compatible
+#### Note: This project is Python2 compatible only
 
 ## Folders
 
