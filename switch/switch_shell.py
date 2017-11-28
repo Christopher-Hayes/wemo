@@ -1,7 +1,7 @@
-import wemo_binary, ../wemo/wemo_wifi.py
+import switch
 
 def switch_shell():
-  binary_device = wemo_binary.wemo_binary()
+  binary_device = switch.wemo_binary()
   print(binary_device)
   r = ""
   print('Type get, set [state], or quit')
@@ -13,3 +13,6 @@ def switch_shell():
       new_state = r.split(' ')[1]
       binary_device.setState(new_state.lower() == 'on' or new_state == '1')
       print(binary_device)
+
+if __name__ == '__main__':
+    switch_shell()
