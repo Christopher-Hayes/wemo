@@ -1,5 +1,5 @@
 # wemo
-#### [project website](https://christopher-hayes.github.io/wemo/)
+#### Note: This project is Python**2** compatible
 
 ## Folders
 
