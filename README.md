@@ -3,9 +3,6 @@
 
 ## Folders
 
-**docs**
-Content on the repository website.
-
 **netcam**
 All Python files and files containing specific information about the netcam.
 
