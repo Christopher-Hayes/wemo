@@ -31,9 +31,6 @@ Used to interact with the Belkin NetCam and get data.
 **netcam_gui.py**
 Gives a live feed from the Wemo Netcam (in setup mode) using the mjpeg stream.
 
-**netcam_info.txt**
-Complete information about NetCam as produced by the Belkin AWS Server.
-
 **netcam_known_tree.txt**
 Partial tree of the netcam locally hosted http pages compiled over the course of this project.
 
@@ -71,4 +68,4 @@ User friendly shell script for action.py
 
 **wemo_wifi.py**
 Convenience tool that searches for a nearby WeMo network and can automatically change the device's wifi network.
-Note: Only OS X compatible (uses Airport), user also has to have Airport enabled.
+Note: Only OS X compatible (uses Airport), user also must have Airport enabled.
