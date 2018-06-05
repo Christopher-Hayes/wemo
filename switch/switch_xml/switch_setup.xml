@@ -14,10 +14,10 @@
       <modelNumber>1.0</modelNumber>
       <hwVersion>v2</hwVersion>
       <modelURL>http://www.belkin.com/plugin/</modelURL>
-      <serialNumber>221712K0102BEE</serialNumber>
-      <UDN>uuid:Socket-1_0-221712K0102BEE</UDN>
+      <serialNumber>XXXXXXXXXXXX</serialNumber>
+      <UDN>XXXXXXXXXXXX</UDN>
       <UPC>123456789</UPC>
-      <macAddress>58EF6898006C</macAddress>
+      <macAddress>XXXXXXXXXXXX</macAddress>
       <firmwareVersion>WeMo_WW_2.00.10971.PVT-OWRT-SNSV2</firmwareVersion>
       <iconVersion>3|49152</iconVersion>
       <binaryState>0</binaryState>
