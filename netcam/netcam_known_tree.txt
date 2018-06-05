@@ -26,7 +26,7 @@
     wirelessAplist          # set wifi network to connect through
         POST - content:
             apcli_ssid      = NETGEAR-2.4-G         &
-            apcli_bssid     = 00:1f:33:cf:84:a8     &
+            apcli_bssid     = XX:XX:XX:XX:XX:XX     &
             apcli_channel   = 6                     &
             apcli_enc       = NONE                  &
             apcli_mode      = OPEN                  &
